@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Contact Us - Lost Cities Explorer</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .row {
+      background-color: #d3f1f8;
+      margin-top: 40px;
+      padding: 30px 20px;
+      border-radius: 10px;
+    }
+    .form-title {
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .form-label {
+      font-weight: 500;
+    }
+    .img-fluid {
+      border-radius: 10px;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Navbar start -->
+      <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbg5oyvOxbQDbJSZaQzxxfDQnnH5vbrY1WXQ&s" alt="Logo" width="55" height="55" class="me-2" style="border-radius: 50%" />
+            <strong class="text-gradient">Lost Cities Explorer</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="cities.html">Lost Cities</a></li>
+              <li class="nav-item"><a class="nav-link" href="explorer-hub.html">Explorer-hub</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="container">
+    <div class="row shadow border border-light border-3">
+      <!-- Left Image -->
+      <div class="col-md-5 d-none d-md-block" style="display: flex; align-items: center; margin-top: 160px;">
+        <img src="https://media.lordicon.com/icons/wired/flat/1142-form-sheet-questionnaire.gif" class="img-fluid" alt="Contact Illustration">
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-sm-12 col-md-7">
+        <form class="row g-3" action="thank-you.html">
+          <h2 class="form-title">📬 Contact Us</h2>
+
+          <div class="col-md-6">
+            <label for="inputName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="John Doe" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="you@example.com" required>
+          </div>
+
+          <div class="col-md-4">
+            <label for="countryCode" class="form-label">Country Code</label>
+            <select id="countryCode" class="form-select" required>
+              <option selected disabled>Select</option>
+              <option value="+91">+91 (India)</option>
+              <option value="+1">+1 (USA)</option>
+              <option value="+44">+44 (UK)</option>
+              <option value="+61">+61 (Australia)</option>
+              <option value="+81">+81 (Japan)</option>
+            </select>
+          </div>
+
+          <div class="col-md-8">
+            <label for="inputPhone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="inputPhone" placeholder="9876543210" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" required>
+          </div>
+
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select" required>
+              <option selected disabled>Choose...</option>
+              <option>Maharashtra</option>
+              <option>Delhi</option>
+              <option>Gujarat</option>
+              <option>Karnataka</option>
+              <option>Tamil Nadu</option>
+            </select>
+          </div>
+
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+
+          <div class="col-12">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Write your query or message..." required></textarea>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" required>
+              <label class="form-check-label" for="gridCheck">
+                I agree to be contacted back.
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Footer start -->
+      <footer class="site-footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 bg-grey">
+              <div class="d-flex flex-column align-items-center text-center mb-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbg5oyvOxbQDbJSZaQzxxfDQnnH5vbrY1WXQ&s" alt="logo1" height="90" width="90" style="border-radius: 50%" />
+                <h2 class="mt-2 mb-0">Lost <span class="highlight">Cities</span> Explorer</h2>
+              </div>
+              <div class="d-flex justify-content-center align-items-center gap-3">
+                <i class="fa-brands fa-facebook" style="height:50px;width:50px;border-radius:50%;background-color:azure;display:flex;justify-content:center;align-items:center;"></i>
+                <i class="fa-brands fa-instagram" style="height:50px;width:50px;border-radius:50%;background-color:azure;display:flex;justify-content:center;align-items:center;"></i>
+                <i class="fa-brands fa-github" style="height:50px;width:50px;border-radius:50%;background-color:azure;display:flex;justify-content:center;align-items:center;"></i>
+                <i class="fa-brands fa-twitter" style="height:50px;width:50px;border-radius:50%;background-color:azure;display:flex;justify-content:center;align-items:center;"></i>
+              </div>
+              <br />
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="addressf">49, QSpiders, Vasai Road, Mumbai</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 bg-light">
+              <br />
+              <ul type="none">
+                <li><h4>GET TO KNOW ABOUT US</h4></li>
+                <li>ABOUT US</li>
+                <li>CAREER</li>
+                <li>PRESS RELEASE</li>
+                <li>GIFT A SMILE</li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 bg-light">
+              <br />
+              <ul type="none">
+                <li><h4>REACH US</h4></li>
+                <li>TWITTER</li>
+                <li>FACEBOOK</li>
+                <li>INSTAGRAM</li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 bg-light">
+              <br />
+              <ul type="none">
+                <li><h4>US HELP YOU</h4></li>
+                <li>YOUR ACCOUNT CENTER</li>
+                <li>PURCHASE CENTER</li>
+                <li>RETURN CENTER</li>
+                <li>100% PURCHASE PROTECTION</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer end -->
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
