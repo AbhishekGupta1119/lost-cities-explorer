@@ -34,6 +34,14 @@ body {
     font-weight: 700;
 }
 
+.text-gradient{
+  color: #CBA135;
+}
+
+.fcol{
+  color: #CBA135;
+}
+
 /* ======= Hero Section ======= */
 .herocnt {
     display: flex;

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thank You - Lost Cities Explorer</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <style>
+    body {
+      background-color: #f2f9fc;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .thank-you-box {
+      background-color: #fff;
+      padding: 3rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-top: 80px;
+    }
+    .thank-you-box h1 {
+      font-size: 2.5rem;
+      color: #28a745;
+      margin-bottom: 1rem;
+    }
+    .thank-you-box p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 2rem;
+    }
+    .reviews {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .review-card {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      max-width: 250px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      text-align: left;
+    }
+    .review-card i {
+      color: #ffc107;
+    }
+    .home-btn {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbg5oyvOxbQDbJSZaQzxxfDQnnH5vbrY1WXQ&s" alt="Logo" width="55" height="55" class="me-2" style="border-radius: 50%" />
+        <strong class="text-gradient">Lost Cities Explorer</strong>
+      </a>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <div class="container d-flex flex-column align-items-center justify-content-center flex-grow-1">
+    <div class="thank-you-box">
+      <h1>✅ Thank You!</h1>
+      <p>We have received your message and will contact you soon. 📨</p>
+      <p>Meanwhile, see what our happy explorers say:</p>
+
+      <div class="reviews">
+        <div class="review-card">
+          <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>
+          <p>"Amazing site! Found so much about lost cities I never knew existed."</p>
+          <small>- Aryan Sharma</small>
+        </div>
+
+        <div class="review-card">
+          <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+          <p>"Super helpful. Their team responded to my questions quickly."</p>
+          <small>- Elena Kovacs</small>
+        </div>
+
+        <div class="review-card">
+          <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+          <p>"One of the best resources for explorers and history lovers."</p>
+          <small>- Michael Tan</small>
+        </div>
+      </div>
+
+      <a href="index.html" class="btn btn-primary home-btn">🏠 Back to Home</a>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white py-3 text-center mt-auto">
+    <p class="mb-0">&copy; 2025 Lost Cities Explorer</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
